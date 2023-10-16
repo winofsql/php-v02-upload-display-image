@@ -19,7 +19,10 @@
 
 </head>
 <body>
-<h3 class="alert alert-primary"><a href="./">ファイルをアップロード( 選択画像表示 )</a></h3>
+<h3 class="alert alert-primary">
+    <a href="./">ファイルをアップロード( 選択画像表示 )</a>
+    <a href=".." style="float:right;text-decoration:none;">📂</a>
+</h3>
 <div id="content">
     <form enctype="multipart/form-data"
         method="POST">
